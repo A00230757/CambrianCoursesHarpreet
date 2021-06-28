@@ -33,7 +33,9 @@ public class MainInterface extends AppCompatActivity {
         else if( v.getId() == R.id.imv3){
             Toast.makeText(getApplicationContext(),"Student Login",Toast.LENGTH_SHORT).show();
         }
-        else{}
+        else{
+            Toast.makeText(getApplicationContext(),"",Toast.LENGTH_SHORT).show();
+        }
     }
 }
 
